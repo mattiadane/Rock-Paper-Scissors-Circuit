@@ -1,0 +1,35 @@
+# componente che calcola il numero di manche massime in base agli input del circuito
+# da come output il risultato dell'operazione concat(primo, secondo) + 4
+
+.model CONCAT
+.inputs PRIMO1 PRIMO0 SECONDO1 SECONDO0  # Primo1 - Primo2 - Secondo1 - Secondo2
+.outputs O4 O3 O2 O1 O0 # i 5 bit di uscita
+
+.names PRIMO1 PRIMO0 SECONDO1 SECONDO0 O4 # bit più significativo
+11-- 1
+
+.names PRIMO1 PRIMO0 SECONDO1 SECONDO0 O3
+010- 1
+011- 1
+100- 1
+101- 1
+
+.names PRIMO1 PRIMO0 SECONDO1 SECONDO0 O2
+000- 1
+001- 1
+100- 1
+101- 1
+
+.names PRIMO1 PRIMO0 SECONDO1 SECONDO0 O1
+001- 1
+011- 1
+101- 1
+111- 1
+
+.names PRIMO1 PRIMO0 SECONDO1 SECONDO0 O0 # bit meno significativo
+00-1 1
+01-1 1
+10-1 1
+11-1 1
+
+.end

@@ -1,0 +1,9 @@
+#Multiplexer a 4 ingressi a 2 bit
+.model MUX42
+.inputs S1 S0 A1 A0 B1 B0 C1 C0 D1 D0
+.outputs O1 O0
+.subckt MUX41 S1=S1 S0=S0 A=A1 B=B1 C=C1 D=D1 O=O1
+.subckt MUX41 S1=S1 S0=S0 A=A0 B=B0 C=C0 D=D0 O=O0
+.search mux41.blif
+
+.end

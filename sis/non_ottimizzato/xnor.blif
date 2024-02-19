@@ -1,0 +1,9 @@
+#Porta logica xnor utile per realizzre il componente di uguaglianza 
+.model XNOR
+.inputs A B 
+.outputs X
+# Il compontente Xnor da 1 quando gli input sono uguali
+.names A B X
+00 1
+11 1
+.end

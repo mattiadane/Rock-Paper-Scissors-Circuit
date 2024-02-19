@@ -1,0 +1,10 @@
+#Multiplexer a 4 ingressi ciascuno a 1 bit , utilie per costruire multiplexer a 4 ingressi a pià bit per ingresso
+.model MUX41
+.inputs S1 S0 A B C D 
+.outputs O
+.names S1 S0 A B C D O
+001--- 1
+01-1-- 1
+10--1- 1
+11---1 1
+.end

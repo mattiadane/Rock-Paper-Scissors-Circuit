@@ -1,0 +1,8 @@
+#multiplexer a 2 ingressi a 1 bit ciascuno
+.model MUX21
+.inputs S0 A B
+.outputs O
+.names S0 A B O
+01- 1
+1-1 1
+.end

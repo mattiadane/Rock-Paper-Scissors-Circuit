@@ -1,0 +1,14 @@
+#Componente che verifica un uguaglianza a 2 bit
+.model UGUALE5
+.inputs A4 A3 A2 A1 A0 B4 B3 B2 B1 B0
+.outputs O
+.subckt XNOR A=A4 B=B4 X=X4
+.subckt XNOR A=A3 B=B3 X=X3
+.subckt XNOR A=A2 B=B2 X=X2 
+.subckt XNOR A=A1 B=B1 X=X1
+.subckt XNOR A=A0 B=B0 X=X0 
+.names X4 X3 X2 X1 X0 O
+11111 1
+.search xnor.blif
+
+.end

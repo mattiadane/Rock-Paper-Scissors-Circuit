@@ -1,0 +1,12 @@
+#Registro a 5 bit
+.model REGISTRO5
+.inputs A4 A3 A2 A1 A0
+.outputs O4 O3 O2 O1 O0
+.subckt REGISTRO1 A=A4 O=O4
+.subckt REGISTRO1 A=A3 O=O3
+.subckt REGISTRO1 A=A2 O=O2
+.subckt REGISTRO1 A=A1 O=O1
+.subckt REGISTRO1 A=A0 O=O0
+.search registro1.blif
+
+.end

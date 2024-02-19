@@ -1,0 +1,9 @@
+#Porta logica xor per realizzare il componente maggiore
+.model XOR
+.inputs A B
+.outputs O
+# Il compontente Xor da 1 quando gli input sono diversi
+.names A B O
+01 1
+10 1
+.end

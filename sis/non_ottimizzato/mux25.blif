@@ -1,0 +1,13 @@
+#multiplxer a 2 ingressi a 5 bit ciascuno
+.model MUX25
+.inputs S0 A4 A3 A2 A1 A0 B4 B3 B2 B1 B0
+.outputs O4 O3 O2 O1 O0
+.subckt MUX21 S0=S0 A=A4 B=B4 O=O4
+.subckt MUX21 S0=S0 A=A3 B=B3 O=O3
+.subckt MUX21 S0=S0 A=A2 B=B2 O=O2
+.subckt MUX21 S0=S0 A=A1 B=B1 O=O1
+.subckt MUX21 S0=S0 A=A0 B=B0 O=O0
+.search mux21.blif
+
+.end
+

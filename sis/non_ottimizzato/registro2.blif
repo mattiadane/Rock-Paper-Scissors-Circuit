@@ -1,0 +1,9 @@
+#Registro a 2 bit
+.model REGISTRO2
+.inputs A1 A0
+.outputs O1 O0
+.subckt  REGISTRO1 A=A1 O=O1
+.subckt  REGISTRO1 A=A0 O=O0
+.search registro1.blif
+
+.end

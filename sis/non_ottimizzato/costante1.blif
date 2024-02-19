@@ -1,0 +1,7 @@
+#Costante 1 
+.model COSTANTE1
+.outputs O
+.names O
+1
+.end
+

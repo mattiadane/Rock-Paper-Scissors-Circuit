@@ -1,0 +1,6 @@
+#costante 0 a 1 bit
+.model COSTANTE0
+.outputs O
+.names O
+.end
+

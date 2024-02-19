@@ -1,0 +1,18 @@
+#sommatore a 1 bit
+.model SOMMATORE1
+.inputs A B CIN
+.outputs O COUT
+
+.names A B C
+10 1
+01 1
+
+.names C CIN O # PRIMA USCITA IN BASE ANCHE IL CARRY-IN
+10 1
+01 1
+
+.names A B CIN COUT # USCITA GENERALE CONTANDO ANCHE IL CARRY-IN
+-11 1
+1-1 1
+11- 1
+.end
