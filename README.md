@@ -5,4 +5,4 @@ In this repository, I use two different "modeling languages" to create the circu
 - [Verilog](https://it.wikipedia.org/wiki/Verilog)
 
 ## Collaborators
-- [Alessandro De Carli](https://github.com/Aledpl5/)A
+- [Alessandro De Carli](https://github.com/Aledpl5/)
